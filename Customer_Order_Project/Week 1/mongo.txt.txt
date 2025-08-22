@@ -1,0 +1,16 @@
+use customer_orders
+
+ 
+db.feedback.insertMany([
+  { customer_id: 1, feedback: "Fast delivery, very happy!" },
+  { customer_id: 2, feedback: "Packaging was damaged, but product is fine." },
+  { customer_id: 3, feedback: "Delivery was delayed by 2 days." },
+  { customer_id: 4, feedback: "Excellent service, thank you!" },
+  { customer_id: 5, feedback: "Would love more payment options." },
+  { customer_id: 6, feedback: "Driver was polite and professional." }
+]);
+
+
+db.feedback.createIndex({customer_id:1});
+
+db.feedback.find({customer_id:2})
