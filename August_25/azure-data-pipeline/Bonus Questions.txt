@@ -1,0 +1,20 @@
+Bonus Questions (Conceptual)
+
+1. Why is data cleaning important in real-time data processing?
+Ans:- Data cleaning includes removing errors, inconsistencies and missing values from raw data. Data cleaning ensures accuracy, consistency and reliability of data. It prevents errors, removes missing/duplicate values and keep data stable and clean for further processes like analysis, visualizations.
+
+
+2. What are pipeline artifacts and how are they used in DevOps workflows?
+Ans:- Pipeline artifacts are files generated during a pipeline run (e.g., builds, logs, datasets). They are used to share outputs between stages, enable versioning, support deployment, and provide traceability in DevOps workflows.
+
+
+3. How would you modify the pipeline to store the cleaned data into Azure Blob
+Storage?
+Ans:- When storing clean data into Azure Blob Storage, 
+1. Esatblish credentials and connectiviy
+2. Identify and package clean data
+3. Add Deployment step
+4. Handle Idempotency and Errors
+5. Handle idempotency
+6. Environment Isolation
+ 
