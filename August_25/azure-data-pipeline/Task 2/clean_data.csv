@@ -1,0 +1,5 @@
+transactionid,customername,purchasedate,amount
+1,Alice,2024-07-15,250.0
+2,Bob,,300.0
+4,Diana,,500.0
+6,Frank,,600.0

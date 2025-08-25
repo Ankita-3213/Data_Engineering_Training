@@ -1,0 +1,8 @@
+
+TransactionID,CustomerName,PurchaseDate,Amount
+1,Alice,2024-07-15,250
+2,Bob,15/08/2024,300
+3,Charlie,,450
+4,Diana,2024/09/05,500
+5,Eva,2024-10-01,NaN
+6,Frank,01-11-2024,600

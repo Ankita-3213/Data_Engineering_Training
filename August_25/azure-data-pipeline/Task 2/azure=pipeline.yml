@@ -1,0 +1,39 @@
+
+# st1 setup python
+# st2 install dependencies
+# st3 run data_proceessing.py
+# st4 publish csv
+
+trigger:
+  -main
+
+pool:
+  vmImage: Ubuntu-latest
+
+steps:
+# st0 checkout
+  -task: checkout@1
+
+# st1 setup python
+  -task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.10'
+    addToPath: true
+
+# st2 install dependencies
+  -script: |
+    pip install -r data_proceessing/requirements.txt
+  displayName: 'install dependencies'
+
+# st3 run data_proceessing.py
+  -script: |
+    python data_proceessing.py
+  displayName: 'Run data processing'
+
+# st4 publish csv
+  -task: PublishBuildArtifact@1
+  inputs:
+    PathtoPublish: 'data'
+    ArtifactName: 'ProcessedSalesData'
+    publishLocation: 'Container'
+    
