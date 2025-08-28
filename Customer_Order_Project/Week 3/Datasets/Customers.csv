@@ -1,0 +1,9 @@
+customer_id,name,email,region
+1,Claire Dunphy,claire@example.com,East
+2,Phil Dunphy,realtorphil@example.com,East
+3,Jay Prichette,jay@example.com,North
+4,Gloria Prichette,gloria@example.com,North
+5,Mitchel Prichette,lawyermitch@example.com,South
+6,Cameron Tucker,cam@example.com,South
+7,Haley Dunphy,haley@example.com,West
+8,Dylan Marshall,dylan@example.com,West

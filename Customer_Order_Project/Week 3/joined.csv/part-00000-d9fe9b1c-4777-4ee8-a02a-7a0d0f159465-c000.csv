@@ -1,0 +1,9 @@
+customer_id,order_id,order_date,total_amount,name,email,region
+1,1,01-08-2025,2500,Claire Dunphy,claire@example.com,East
+2,2,05-08-2025,1800,Phil Dunphy,realtorphil@example.com,East
+3,3,02-08-2025,3200,Jay Prichette,jay@example.com,North
+4,4,10-08-2025,1450,Gloria Prichette,gloria@example.com,North
+5,5,15-08-2025,2200,Mitchel Prichette,lawyermitch@example.com,South
+6,6,07-08-2025,2750,Cameron Tucker,cam@example.com,South
+7,7,18-08-2025,900,Haley Dunphy,haley@example.com,West
+8,8,12-08-2025,1100,Dylan Marshall,dylan@example.com,West
