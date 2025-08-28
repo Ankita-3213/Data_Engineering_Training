@@ -1,0 +1,11 @@
+order_id,customer,supplier,item,order_date,delivery_date,quantity
+1,Sheldon,SupplierA,Whiteboard,05-01-2025,10-01-2025,2
+2,Leonard,SupplierB,Laser Tag Set,07-01-2025,28-01-2025,1
+3,Penny,SupplierC,Cheesecake Factory Vouchers,10-01-2025,15-01-2025,5
+4,Howard,SupplierA,Space Helmet,12-01-2025,20-02-2025,1
+5,Raj,SupplierB,Star Wars Figurines,15-01-2025,22-01-2025,3
+6,Amy,SupplierC,Brain Scan Kit,18-01-2025,25-01-2025,1
+7,Bernadette,SupplierA,Miniature Telescope,20-01-2025,15-02-2025,2
+8,Stuart,SupplierB,Comic Books,22-01-2025,01-03-2025,10
+9,Sheldon,SupplierC,Train Set,25-01-2025,30-01-2025,1
+10,Leonard,SupplierA,Wifi Router,28-01-2025,,1

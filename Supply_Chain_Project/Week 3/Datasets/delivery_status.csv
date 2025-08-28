@@ -1,0 +1,11 @@
+order_id,delivery_status,delay_days,issue
+1,On Time,5,None
+2,Delayed,21,Supplier backlog
+3,On Time,5,None
+4,Delayed,39,Space helmet import delay
+5,On Time,7,None
+6,On Time,7,None
+7,Delayed,26,Supplier capacity issue
+8,Delayed,38,Comic book restock issue
+9,On Time,5,None
+10,Delayed,," ""Missing delivery date"""
