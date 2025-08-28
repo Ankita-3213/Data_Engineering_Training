@@ -1,0 +1,8 @@
+order_id,customer_id,item_name,quantity,order_date,supplier_id,delivery_date
+1,101,Quantum Physics Book,2,01-08-2025,1,04-08-2025
+2,102,Laser Pointer,5,02-08-2025,3,05-08-2025
+3,103,,1,03-08-2025,5,07-08-2025
+4,104,Neuroscience Journal,,04-08-2025,2,08-08-2025
+5,105,Astronomy Telescope,1,,7,
+6,,Acting Guides,2,06-08-2025,4,11-08-2025
+7,106,Microbiology Journal,4,07-08-2025,,12-08-2025

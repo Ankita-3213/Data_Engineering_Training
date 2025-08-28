@@ -1,0 +1,8 @@
+order_id,customer_id,item_name,quantity,order_date,supplier_id,delivery_date,days_delayed,name,location
+1,101.0,Quantum Physics Book,2.0,2025-08-01,1.0,2025-08-05,4,Alice Johnson,New York
+2,102.0,Laser Pointer,5.0,2025-08-02,3.0,2025-08-06,4,Unknown,San Francisco
+3,103.0,Unknown,1.0,2025-08-03,5.0,2025-08-07,4,Charlie Lee,Chicago
+4,104.0,Neuroscience Journal,,2025-08-04,2.0,2025-08-08,4,Diana Prince,Not Provided
+5,105.0,Astronomy Telescope,1.0,2025-05-08,7.0,2025-05-12,4,Ethan Brown,Houston
+6,106.0,Acting Guides,2.0,2025-08-06,4.0,2025-08-10,4,Fiona Davis,Seattle
+7,106.0,Microbiology Journal,4.0,2025-08-07,,2025-08-11,4,Fiona Davis,Seattle
